@@ -13,7 +13,7 @@ import { Stats } from './pages/Stats';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/MatchDay">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
